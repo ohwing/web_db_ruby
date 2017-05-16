@@ -1,0 +1,23 @@
+<form id="tele_frm" method="post" action="telephoneAction.action" onsubmit="return jf_submit();">
+    <input type="hidden" name="siteId" value="sangji"/>
+    <input type="hidden" name="teleIdx" value="183714"/>
+    <input type="hidden" name="parent" value="%2Fuser%2FindexSub.action%3FcodyMenuSeq%3D13197569%26siteId%3Dsangji%26menuType%3DT%26uId%3D1%26sortChar%3DAF%26linkUrl%3D01_06.html%26mainFrame%3Dright"/>
+    <input type="hidden" name="command" id="tele_command" value=""/>
+
+
+    <div class="search-box02">
+        <fieldset>
+            <legend>검색하기</legend>
+            <label for="pu-search">교직원 전화번호 검색</label>
+            <select name="findType" title="검색 목록" id="pu-search">
+                <option value="contName" >이름</option>
+                <option value="contNumber" >전화번호</option>
+                <option value="category" >부서/학과명</option>
+                <option value="contPosition" >직급</option>
+                <option value="contBusiness" >담당업무</option>
+            </select>
+            <input type="text" name="findWord" id="findWord" value="" title="검색 입력"/>
+            <input type="image" src="/user/sangji/mycodyimages/btn/btn_search03.gif" alt="검색" />
+        </fieldset>
+    </div>
+</form>
