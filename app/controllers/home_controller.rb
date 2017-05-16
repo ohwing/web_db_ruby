@@ -6,7 +6,7 @@ class HomeController < ApplicationController
   def write
     @pond = Post.new
     @pond.name = params[:input_name]
-    @pond.content = params[:input_content]
+    @pond.content = params[:input_text]
     @pond.save
     redirect_to '/'
   end
