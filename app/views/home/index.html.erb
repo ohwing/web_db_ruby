@@ -1,3 +1,9 @@
+<% @all.each do |x| %>
+    <p><%= x.name %>: <%= x.content %></p>
+    <hr>
+<% end %>
+
+
 <form action="home/write" method="method">
     <input type="text" name="input_name">
     <input type="text" name="input_text">

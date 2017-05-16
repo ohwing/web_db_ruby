@@ -1,5 +1,6 @@
 class HomeController < ApplicationController
   def index
+    @all = Post.all
   end
 
   def write
